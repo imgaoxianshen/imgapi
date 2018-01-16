@@ -220,7 +220,7 @@ protected function tengxun_post($url,$bus_params)
  		//https://api.ai.qq.com/fcgi-bin/aai/aai_tts?".$tmp ); 
     	$param=[];
         $param['app_id']="10000";
-        //$param['app_key']="AIw2J1EFkr2LAWZH";
+        
         $param['nonce_str']=time();
         $param['time_stamp']= time();
         
